@@ -1238,3 +1238,45 @@ table {
         font-size: 11px;
     }
 }
+
+/*****BUSCADOR COLABORADOR MOVILES******/
+@media screen and (max-width: 470px) {
+ .card-body-colab{
+     padding: 5px;
+ }
+    .search-box--colab{
+        padding: 13px 9px 13px 13px;
+    }
+    .bcsearch-box{
+        padding-top: 4px;
+        width: 100%;
+    }
+    .info{
+        margin: 0;
+        width: 100%;
+        font-size: 11px;
+        padding: 4px 8px;
+
+    }
+    .info-header{
+        margin: 4px 8px;
+
+    }
+    .td-ancho{
+        font-family: BRCandor-Bold;
+        font-size: 11px;
+    }
+    .footer-consultas{
+        text-align: right;
+        font-size: 6.5px;
+    }
+    .footer-consultas span{
+        font-family: BRCandor-Bold;
+        font-size: 9px;
+
+    }
+    .foooter-logo{
+      margin-left: 10px;
+        margin-right: 10px;
+    }
+}
