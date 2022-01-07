@@ -1221,3 +1221,9 @@ table {
 }
 
 /*****CUPONES MOVILES******/
+@media screen and (max-width: 470px) {
+    .container{
+        padding-right: 14px;
+        padding-left: 15px;
+    }
+}
