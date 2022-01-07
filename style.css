@@ -1331,6 +1331,102 @@ table {
         margin: 15px 0 15px 15px
     }
 }
+/*****GESTIÓN RENUNCIA MOVILES******/
+@media screen and (max-width: 470px){
+    .card-body--renuncia{
+        padding: 0px;
+        margin: 18px;
+    }
+    .table{
+        width: 100%;
+    }
+    .table tr{
+        display: block;
+    }
+    .table thead{
+        display: none;
+    }
+    .table th, .table td{
+        font-size: 11px;
+    }
+    .table td{
+        display: block;
+        /*text-align: start;*/
+        text-align: right;
+    }
+    table td::before{
+        content: attr(data-label);
+        font-weight: bold;
+        float: left;
+    }
+    .bg-shadown{
+        box-shadow: none;
+    }
+    .wrap-footer {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .widgets-boxs {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0;
+    }
+    .select-full{
+        padding: 0;
+        box-shadow: 0px 0px 12px #a8a6a6, -6px -6px 25px #ffffff;
+        border-radius: 5px;
+        height: 26px;
+        border: none;
+    }
+    .widget--subtitle{
+        font-size: 13px;
+    }
+    .wrap-footer-box{
+        width: 100%;
+    }
+    .widget-box-title::before{
+        display: none;
+    }
+    .widget-box-title{
+        text-align: left;
+        border-radius: 5px;
+        font-size: 13px;
+    }
+    .button-ghost-renuncia{
+        float: left;
+        font-size: 12px;
+    }
+    .wrap-button {
+        font-size: 14px;
+    }
+    .wrap-text {
+        margin-bottom: 10px;
+        font-size: 8.82px;
+    }
+    .widget-box-desc{
+        margin-top: 0px;
+        font-size: 10px;
+    }
+    .wrap-buton-red {
+        border: 1.50px solid;
+        padding: 10px 30px;
+        font-size: 19.78px;
+    }
+    .wrap-buton-red-salir {
+        border: 1.50px solid slategray;
+        padding: 10px 30px;
+        font-size: 19.78px;
+        color: slategray;
+    }
+    .wrap-buton-red-salir:hover{
+        background-color: slategray;
+        color: #fff
+    }
+    .card-subtitle:after {
+        display: none;
+    }
+}
 /*****BUSCADOR COLABORADOR MOVILES******/
 @media screen and (max-width: 320px) {
  .card-body-colab{
