@@ -1226,4 +1226,14 @@ table {
         padding-right: 14px;
         padding-left: 15px;
     }
+    .card-title{
+        padding: 12px 13px 10px 13px;
+        font-size: 16px;
+        line-height: 16px;
+        margin-top: 20px;
+    }
+    .card-body--cupones{
+        padding: 12px 7px 12px 13px;
+        font-size: 11px;
+    }
 }
