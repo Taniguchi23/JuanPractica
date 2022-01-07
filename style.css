@@ -606,6 +606,11 @@ body {
     padding: 2px 2px 3px;
 }
 
+.select-full--renuncia{
+    width: 100%;
+    padding: 2px 2px 3px;
+}
+
 .cupo--bg-gray {
     background-color: #fafafa;
 }
@@ -1231,7 +1236,7 @@ table {
         background-color: #fff;
     }
     .card-title{
-        padding: 12px 13px 10px 7px;
+        padding: 12px 13px 10px 13px;
         font-size: 16px;
         line-height: 16px;
         margin-top: 20px;
@@ -1335,7 +1340,15 @@ table {
 @media screen and (max-width: 470px){
     .card-body--renuncia{
         padding: 0px;
-        margin: 18px;
+        background-color: #fff;
+        margin-top: 18px;
+    }
+    .widget-box-body{
+        padding: 0;
+        margin: 20px;
+    }
+    .widget-box-wrap{
+        margin: 0px;
     }
     .table{
         width: 100%;
@@ -1362,6 +1375,14 @@ table {
     .bg-shadown{
         box-shadow: none;
     }
+    .select-full--renuncia{
+        padding: 0;
+        box-shadow: 0px 0px 12px #a8a6a6, -6px -6px 25px #ffffff;
+        border-radius: 5px;
+        height: 26px;
+        border: none;
+        width: 100%;
+    }
     .wrap-footer {
         width: 100%;
         display: flex;
@@ -1371,19 +1392,15 @@ table {
         display: flex;
         flex-wrap: wrap;
         padding: 0;
+        width: 100%;
     }
-    .select-full{
-        padding: 0;
-        box-shadow: 0px 0px 12px #a8a6a6, -6px -6px 25px #ffffff;
-        border-radius: 5px;
-        height: 26px;
-        border: none;
-    }
+    
     .widget--subtitle{
         font-size: 13px;
     }
     .wrap-footer-box{
         width: 100%;
+        margin: 0px;
     }
     .widget-box-title::before{
         display: none;
@@ -1392,13 +1409,20 @@ table {
         text-align: left;
         border-radius: 5px;
         font-size: 13px;
+        margin-top: 17px;
     }
     .button-ghost-renuncia{
         float: left;
         font-size: 12px;
+        margin-top: 12px;
+        padding: 10px 25px 10px 13.9896px;
+    }
+    .button-ghost-renuncia svg{
+        margin: 0 24.1075px 0 0 ;
     }
     .wrap-button {
         font-size: 14px;
+        padding: 11.5274px 23.9484px 7.5427px 24.919px;
     }
     .wrap-text {
         margin-bottom: 10px;
@@ -1410,14 +1434,17 @@ table {
     }
     .wrap-buton-red {
         border: 1.50px solid;
-        padding: 10px 30px;
+        padding: 12.0714px 26.9032px 7.96px 28.1104px;
+        margin-left: 15.0296px;
         font-size: 19.78px;
+        margin-top: 17.9654px;
     }
     .wrap-buton-red-salir {
         border: 1.50px solid slategray;
-        padding: 10px 30px;
+        padding: 12.0714px 34.6482px 7.96px 34.6482px;
         font-size: 19.78px;
         color: slategray;
+        margin-top: 17.9654px;
     }
     .wrap-buton-red-salir:hover{
         background-color: slategray;
@@ -1425,6 +1452,10 @@ table {
     }
     .card-subtitle:after {
         display: none;
+    }
+    .myfooter{
+        border-top: 1.5px solid #e4e2e9;
+        margin-top: 17.9654px;
     }
 }
 /*****BUSCADOR COLABORADOR MOVILES******/
