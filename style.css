@@ -1305,7 +1305,7 @@ table {
     }
 }
 /*****BUSCADOR COLABORADOR MOVILES******/
-@media screen and (max-width: 470px) {
+@media screen and (max-width: 320px) {
  .card-body-colab{
      padding: 5px;
  }
@@ -1330,6 +1330,9 @@ table {
     .td-ancho{
         font-family: BRCandor-Bold;
         font-size: 11px;
+    }
+    .td-position{
+
     }
     .footer-consultas{
         text-align: right;
