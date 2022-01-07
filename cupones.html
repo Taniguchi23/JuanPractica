@@ -140,7 +140,7 @@
                         <label for="start">Fecha de uso:</label>
                         <div class="cols">
                             <div class="col">
-                                <input type="date" id="start" name="trip-start" value="2021-07-22" min="2018-01-01" max="2021-12-31">
+                                <input class="fecha" type="date" id="start" name="trip-start" value="2021-07-22" min="2018-01-01" max="2021-12-31">
                             </div>
                             <div class="col">
                                 <select name="select">
@@ -182,7 +182,7 @@
                         <label for="start">Fecha de uso:</label>
                         <div class="cols">
                             <div class="col">
-                                <input type="date" id="start" name="trip-start" value="2021-07-22" min="2018-01-01" max="2021-12-31">
+                                <input class="fecha" type="date" id="start" name="trip-start" value="2021-07-22" min="2018-01-01" max="2021-12-31">
                             </div>
                             <div class="col">
                                 <select name="select">
@@ -223,7 +223,7 @@
                         <label for="start">Fecha de uso:</label>
                         <div class="cols">
                             <div class="col">
-                                <input type="date" id="start" name="trip-start" value="2021-07-22" min="2018-01-01" max="2021-12-31">
+                                <input class="fecha" type="date" id="start" name="trip-start" value="2021-07-22" min="2018-01-01" max="2021-12-31">
                             </div>
                             <div class="col">
                                 <select name="select">
@@ -246,7 +246,7 @@
                 <div class="ticket-img" style="background-image: url('./image/2.jpg');"></div>
             </div>
         </div>
-        <div class=" ticket-solo">
+        <div class="ticket">
             <img class="ticket-cut" src="./image/cut.png" alt="">
             <div class="ticket-cupo ticket-bg--orange">
                 Cupón 1 día libre
@@ -263,35 +263,44 @@
                         <label for="start">Fecha de uso:</label>
                         <div class="cols">
                             <div class="col">
-                                <input type="date" id="start" name="trip-start" value="2021-07-22" min="2018-01-01" max="2021-12-31">
+                                <input class="fecha" type="date" id="start" name="trip-start" value="" min="2018-01-01" max="2021-12-31">
                             </div>
                             <div class="col">
                                 <select name="select">
                                     <option value="value1" selected>1</option>
                                     <option value="value2">2</option>
                                     <option value="value3">3</option>
-                                </select>
+                                  </select>
                             </div>
                         </div>
-                        <label for="start">Jefe inmediato:</label>
-                        <select name="select" class="select-full">
+                          <label for="start">Jefe inmediato:</label>
+                          <select name="select" class="select-full">
                             <option value="value1" selected>1</option>
                             <option value="value2">2</option>
                             <option value="value3">3</option>
-                        </select>
+                          </select>
 
-                        <input type="submit" class="ticket-button" value="Usar">
+                          <input type="submit" class="ticket-button" value="Usar">
                     </form>
                 </div>
                 <div class="ticket-img" style="background-image: url('./image/imagecupon.png');"></div>
             </div>
         </div>
-
-
     </div>
-
 </div>
-
-    
+<div class="footer">
+    <div class="container">
+        <div class="footer-body">
+            <div class="footer-consultas">
+                <span>¿Consultas? Escríbenos a comunicaciones@rimac.com.pe</span>
+                Toda información contenida en esta web es propiedad de Rimac y es de carácter reservado. <br>
+                Solo se permite su uso externo con el consentimiento de la empresa.
+            </div>
+            <div class="foooter-logo">
+                <img src="./image/rimac.png" alt="">
+            </div>
+        </div>
+    </div>
+</div>
 </body>
 </html>

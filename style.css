@@ -1225,6 +1225,7 @@ table {
     .container{
         padding-right: 14px;
         padding-left: 15px;
+        background-color: #fff;
     }
     .card-title{
         padding: 12px 13px 10px 7px;
@@ -1241,67 +1242,87 @@ table {
         padding: 12px 7px 12px 13px;
         font-size: 11px;
     }
+    .ticket{
+        margin: 0 15px 5px 15px;
+    }
     .tickets{
         margin-left: -15px;
         margin-right: -15px;
     }
     .ticket-cupo{
         font-size: 10px;
-        width: 83px;
-        height: 104px;
+        width: 83.3176px;
+        height: 104.1613px;
         border-radius: 11px;
         padding: 18px 20px;
-        line-height: 18px;
+        line-height: 14px;
     }
     .ticket-cupo span{
         border-radius: 5px;
         width: 46px;
         height: 20px;
         font-size: 8.8px;
-        padding: 1px 0px 0px 1px;
+        padding: 1px 0px 1px 0;
         margin-top: 7px;
         margin-bottom: 12px;
+        border: 1px solid #fff
     }
     .ticket-body{
-        width: 119px;
-
+        width: 119.0126px;
+        height: 104.1613px;
+        line-height: 7px;
     }
     .ticket-title{
         font-size: 7.7px;
-        width: 119px;
         height: 18px;
         margin-top: -7px;
         padding: 1px;
     }
     .ticket-from label {
         font-size: 7.63px;
-        margin-top: 4px;
+        margin: 4px 0 2px 0;
+        width: 119px;
     }
     .ticket-cut{
-        left: 75px;
+        left: 79px;
+        width: 11px;
+        height: 15px;
     }
     .select-full{
-       width: 102px; 
+       width: 138px;
        height: 14px;
        font-size: 9px;
+       border: none;
+       border-radius: 1.8px;
     }
     .cols select{
         width: 37px;
         height: 14px;
         font-size: 9px;
+        margin: 2px 2px;
+        border-radius: 1.8px;
+        border: none;
     }
     .fecha{
-        width: 63.93px;
         height: 14px;
         font-size: 9px;
-        margin-top: -1px;
+        margin: 2px 0;
+        border-radius: 1.8px;
+        border: none;
     }
     .ticket-button{
         width: 34.5px;
         height: 14.16px;
         font-size: 7.63px;
         margin: 5px;
-        padding: 10px 4px;
+        padding: 2px ;
+    }
+    .ticket-img{
+        width: 87.49px;
+        height: 104px;
+    }
+    .ticket-from{
+        margin: 15px 0 15px 15px
     }
 }
 /*****BUSCADOR COLABORADOR MOVILES******/
@@ -1336,11 +1357,11 @@ table {
     }
     .footer-consultas{
         text-align: right;
-        font-size: 6.5px;
+        font-size: 4.33px;
     }
     .footer-consultas span{
         font-family: BRCandor-Bold;
-        font-size: 9px;
+        font-size: 6.5px;
 
     }
     .foooter-logo{
