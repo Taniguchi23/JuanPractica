@@ -1231,7 +1231,7 @@ table {
         background-color: #fff;
     }
     .card-title{
-        padding: 12px 13px 10px 7px;
+        padding: 12px 13px 10px 14px;
         font-size: 16px;
         line-height: 16px;
         margin-top: 20px;
@@ -1428,7 +1428,7 @@ table {
     }
 }
 /*****BUSCADOR COLABORADOR MOVILES******/
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 470px) {
  .card-body-colab{
      padding: 5px;
  }
@@ -1444,6 +1444,7 @@ table {
         width: 100%;
         font-size: 11px;
         padding: 4px 8px;
+        box-shadow: none;
 
     }
     .info-header{
@@ -1455,19 +1456,100 @@ table {
         font-size: 11px;
     }
     .td-position{
-
+       padding-left: 30px !important;
+        font-size: 11px;
     }
     .footer-consultas{
         text-align: right;
-        font-size: 4.33px;
+        font-size: 6px;
     }
     .footer-consultas span{
         font-family: BRCandor-Bold;
-        font-size: 6.5px;
+        font-size: 7px;
 
     }
     .foooter-logo{
       margin-left: 10px;
         margin-right: 10px;
     }
+}
+.corte{
+    display: none;
+}
+/****Renovacion**/
+@media screen and (max-width: 470px){
+  .corte{
+      display: inline;
+  }
+    .card-nuevo{
+        padding: 0px;
+        background-color: #fafafa;
+        width: 100%;
+    }
+    .title-renovacion{
+        font-size: 14px;
+        display: contents;
+        line-height: 14px;
+    }
+    .card-box--renovacion {
+        padding-left: 13px;
+
+    }
+    .table--r{
+        font-size: 11px;
+        background-color: #000;
+    }
+
+    .search-img{
+        right: -20px;
+    }
+    .search{
+        padding-top: 18px;
+        font-size: 14px;
+        flex-direction: column;
+        align-items: flex-start;
+        font-family: BRCandor-Medium;
+    }
+    .search-input{
+        width: 100%;
+    }
+    #renuncia{
+        font-size: 16.62pt;
+    }
+    .card-box{
+        display:flex;
+        flex-wrap: wrap;
+        padding-top: 18px;
+        background-color: #fafafa;
+    }
+    .search input {
+        background-color: #eeedff;
+        display: flex;
+        flex-wrap: wrap;
+        border-radius: 10px;
+        margin-left: 10px;
+    }
+    #aprobado{
+        font-size: 14pt;
+    }
+
+    #contenedor{
+        padding-right: 16px;
+        padding-left: 16px;
+    }
+    .color-nuevo{
+        flex-direction:row;
+
+    }
+    .color-p{
+        display: block;
+        justify-content:space-around;
+        background-color: #fff;
+        border-radius: 10px;
+        color: #000;
+        padding:0 19px;
+        margin-top: 20px;
+        width: 100%;
+    }
+
 }
