@@ -1222,6 +1222,9 @@ table {
 
 /*****CUPONES MOVILES******/
 @media screen and (max-width: 470px) {
+    #cupones_quitar{
+        display: none;
+    }
     .container{
         padding-right: 14px;
         padding-left: 15px;
@@ -1234,10 +1237,7 @@ table {
         margin-top: 20px;
         margin: 1px;
     }
-    .card-body--cupones-1{
-        position: fixed;
-        right: 20000000000000000px;
-    }
+
     .card-body--cupones{
         padding: 12px 7px 12px 13px;
         font-size: 11px;
