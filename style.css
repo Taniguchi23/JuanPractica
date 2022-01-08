@@ -1583,6 +1583,20 @@ table {
       width: 100%;
   }
 }
+/*****PLAN EXCLUSIVOS MOVILES******/
+@media screen and (max-width: 470px){
+    .title-planesexclusivos{
+        font-size: 14px;
+        font-family: BRCandor;
+        margin: 17.9654px 0 17.9654px 0;
+    }
+    .card-body--planes{
+        padding: 0 25.3139px 17.9995px 25.3139px;
+    }
+    .widget-text--planes{
+        font-size: 50px;
+    }
+}
 /*****PLAN MOVILES******/
 @media screen and (max-width: 470px){
     #plan-quitar{
