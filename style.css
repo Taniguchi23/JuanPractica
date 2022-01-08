@@ -35,7 +35,9 @@ body {
     padding: 0;
 
 }
-
+.mayuscula{
+    display: inline;
+}
 
 
 .container  {
@@ -1580,5 +1582,42 @@ table {
       margin-top: 20px;
       width: 100%;
   }
-
+}
+/*****PLAN MOVILES******/
+@media screen and (max-width: 470px){
+    #plan-quitar{
+        display: none;
+    }
+    .widgets{
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+    }
+    .widget--plan{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        margin: 0 0 13.8212px 0;
+        padding: 0;
+        align-items: center;
+        border: none;
+        box-shadow: 0px 0px 12px #a8a6a6, -6px -6px 25px #ffffff;
+        font-family: BRCandor;
+        text-transform: lowercase;
+        font-size: 14px;
+    }
+    .mayuscula{
+        text-transform: capitalize;
+    }
+    .card-body--plan{
+        padding: 17.9654px 25.3139px 0 25.2052px;
+    }
+    .widget-img{
+        width: 24px;
+        height: 24px;
+        margin: 10.9699px 7.5448px 10.9699px 10.4438px;
+    }
+    .footer-plan{
+        margin: 0;
+    }
 }
