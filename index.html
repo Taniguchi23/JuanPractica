@@ -6,16 +6,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Document</title>
+    <script async src="https://cdn.ampproject.org/v0.js"></script>
+    <script async custom-element="amp-carousel" src="https://cdn.ampproject.org/v0/amp-carousel-0.1.js"></script>
 </head>
 <body>
     <div class="container">
+        <div class="movil-header display-none">
+            <div class="logo">
+                <img src="image/Frame.svg" alt="">
+            </div>
+            <div class="movil-menu">
+                <div><img src="image/Frame.png" alt=""></div>
+                <div><img src="image/Vector.png" alt=""></div>
+                <div><img src="image/Group.png" alt=""></div>
+            </div>
+        </div>
         <div class="row">
             <div class="card mt-85">
-                <h2 class="card-title">
+                <h2 class="card-title ">
                     Tu solicitud de Gestión CTS
                 </h2>
 
-                <div class="card-body">
+                <div class="card-body movil-display">
                     La Compensación por Tiempo de Servicio (CTS) es un beneficio que alcanza a todos los trabajadores. Se Paga en los meses de mayo y noviembre y el empleador debe depositar a nombre de sus trabajadores en una cuenta CTS (distinta a la de haberes), en una entidad financiera escogida libremente por el colaborador.<br><br>
     Dada la coyuntura actual, algunas entidades están realizando los trámites de CTS de forma virtual y otras siguen manteniendo la misma gestión en físico.<br><br>
     <b>Gestión de forma Virtual:</b> Cajas, Cooperativas y Financieras<br><br>
@@ -59,7 +71,7 @@
 
         <div class="row">
             <div class="card">
-                <h2 class="card-title">
+                <h2 class="card-title movil-display">
                     Tu solicitud
                 </h2>
 
@@ -71,7 +83,7 @@
                     
                     <div class="widgets widgets--solicitud">
                         <div class="widget widget-solicitud">
-                            <img class="widget-img" src="./image/Grupo 13.png" alt="">
+                            <img class="widget-img" src="./image/Framev2.png" alt="">
                             Apertura de cuenta de CTS
                         </div>
     
@@ -105,9 +117,11 @@
 
                 <div class="card-body">
                     <span class="card-subtitle-v2">Solicitante</span>  <span class="bgtitle">PIERINA FABIOLA CASTANEDA CUBAS</span>
-                    
+
                     <div class="widgets widgets--pasos">
-                        <div class="widget widget--red">
+                        <amp-carousel height="250" layout="fixed-height" type="carousel" role="region" aria-label="Basic usage carousel">
+
+                        <div class="widget widget--red carrosel-red">
                             <div style="max-width:250px">
                                  <span class="widget-title">¿Qué proceso deseas <b>realizar?</b></span>
                                 <ul>
@@ -118,22 +132,26 @@
                                 </ul>
                             </div>
                         </div>
-
-                        <div class="widget widget--auto">
+                        <div class="widget widget--auto widget-carousel">
                             <img class="widget-img" src="./image/Grupo 26.png" alt="">
-                            Exporta y envía tu solicitud
+                            <p>Exporta y envía tu solicitud</p>
+                            
                         </div>
 
-                        <div class="widget widget--auto">
+                        <div class="widget widget--auto widget-carousel">
                             <img class="widget-img" src="./image/Grupo 27.png" alt="">
-                            ¡Tu trámite se encuentra en proceso!
+                            <p>
+                                ¡Tu trámite se encuentra en proceso!
+                            </p>
                         </div>
 
-                        <div class="widget widget--auto">
+                        <div class="widget widget--auto widget-carousel">
                             <img class="widget-img" src="./image/Grupo 28.png" alt="">
-                            Registra tu cuenta CTS
+                            <p>
+                                Registra tu cuenta CTS
+                            </p>
                         </div>
-
+                        </amp-carousel>
                     </div>
 
                     <div class="footer footer--cts">
@@ -149,5 +167,22 @@
 
 
     </div>
+
+
+    <!-- <div class="footer">
+        <div class="container">
+            <div class="footer-body">
+                <div class="footer-consultas">
+                    <span>¿Consultas? Escríbenos a comunicaciones@rimac.com.pe</span>
+                    Toda información contenida en esta web es propiedad de Rimac y es de carácter reservado. <br>
+                    Solo se permite su uso externo con el consentimiento de la empresa.
+                </div>
+                <div class="foooter-logo">
+                    <img src="./image/rimac.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div> -->
+
 </body>
 </html>

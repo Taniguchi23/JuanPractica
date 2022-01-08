@@ -181,6 +181,7 @@ body {
     border: 0px;
     font-size: 16px;
     padding: 30px 10px;
+    white-space: normal;
 }
 
 .widget--auto {
@@ -1581,4 +1582,112 @@ table {
       width: 100%;
   }
 
+}
+
+/*///////movil index.html///////*/
+.display-none {
+    display: none !important;
+}
+
+.movil-header {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+    border-bottom: 1px solid #e4e2e9;
+    padding-bottom: 15px;
+}
+
+.movil-menu {
+    display: flex;
+    margin-right: 15px;
+}
+
+.movil-menu > div {
+    margin-left: 10px;
+}
+
+.movil-menu div:nth-child(3) {
+    border-left: solid 2px #e4e2e9;
+    padding-left: 10px;
+}
+
+@media (max-width: 600px) {
+    .display-none {
+        display: flex !important;
+    }
+
+    .card-subtitle {
+        box-sizing: border-box;
+        display: none;
+    }
+    .widget-solicitud {
+        border: 0;
+        width: 98%;
+        display: flex;
+        padding: 10px 10px;
+        align-items: center;
+        margin: 20px 0;
+        box-shadow: 0px 0px 6px #969cac, -4px -4px 15px #ffffff;
+    }
+    .widgets--solicitud {
+        display: block;
+        margin: 0;
+        
+    }
+
+    .card-body {
+        padding: 20px 10px;
+    }
+    .widget-img {
+        margin: 0;
+        margin-right: 10px;
+    }
+
+    .movil-display {
+        display: none;
+    }
+
+    .mt-85 {
+        margin-top: 30px;
+        margin-bottom: 5px;
+    }
+
+    .widgets--pasos {
+        margin-right: 0;
+    margin-left: 0;
+    }
+    
+    /* .footer {
+    max-width: 50%;
+    background-color: #fff;
+    margin-top: 30px;
+    padding: 35px 0;
+} */
+    
+}
+
+.i-amphtml-scrollable-carousel-container {
+    display: flex;
+}
+
+.widget-carousel {
+    height: 230px;
+    width: 153px;
+    min-width: 153px;
+}
+
+.widget-carousel p {
+    /* border: 1px solid red; */
+    white-space: normal;
+    display: inline-flex;
+    height: 100px;
+    overflow: hidden;
+}
+
+.carousel-red {
+    height: 230px;
+    white-space: normal;
+}
+.amp-carousel-button {
+    display: none;  
 }
