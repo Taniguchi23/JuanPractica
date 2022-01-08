@@ -1596,6 +1596,9 @@ table {
     .widget-text--planes{
         font-size: 50px;
     }
+    .card-body--planes{
+        padding: 0;
+    }
 }
 /*****PLAN MOVILES******/
 @media screen and (max-width: 470px){
@@ -1619,6 +1622,11 @@ table {
         font-family: BRCandor;
         text-transform: lowercase;
         font-size: 14px;
+        padding-left: 11px;
+    }
+    .widget--plan:hover{
+        background-color: #6004d4;
+        color: #fff
     }
     .mayuscula{
         text-transform: capitalize;
