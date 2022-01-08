@@ -1692,6 +1692,9 @@ table {
         margin: 0;
 
     }
+    .widget-solicitud:hover{
+        background-color: #6004d4 ;
+    }
 
     .card-body {
         padding: 20px 10px;
