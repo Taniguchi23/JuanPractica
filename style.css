@@ -151,7 +151,20 @@ body {
     display: block;
     margin-bottom: 30px;
 }
-
+.text-reglamento1{
+    font-size: 14px;
+    font-weight: BRCandor;
+}
+.text-reglamento2{
+    font-size: 13px;
+    font-family: BRCandor-Medium;
+    margin-top: 13px;
+    margin-bottom: 13px;
+}
+.button-ghost--reglamento{
+    background-color: #fff;
+    font: 15px BRCandor-bold;
+}
 
 /*////////////////////////////////*/
 
@@ -1774,6 +1787,9 @@ table {
         font-family: BRCandor;
         font-size: 14px;
         padding-left: 11px;
+        align-items: flex-start;
+        padding-top: 10px;
+        padding-bottom: 10px;
     }
     .widget--reglamento:hover{
         background-color: #6004d4 ;
@@ -1784,7 +1800,11 @@ table {
     }
     .widget-text{
         font-size: 8px;
+        position: absolute;
+        margin-top: 10px;
+        margin-left: 35px;
     }
+
 }
 /*****POSTULAR MOVILES******/
 @media screen and (max-width: 470px){
@@ -1879,7 +1899,6 @@ table {
         font-size: 19px;
         color: #ff1930;
         font-weight: bold;
-        margin-bottom: 12px;
     }
     .ticket-imagen{
         flex: 0 0 auto;
