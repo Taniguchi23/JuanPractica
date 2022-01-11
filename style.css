@@ -1021,7 +1021,9 @@ table {
     display: flex;
     align-items: center;
 }
-
+.salto-postular{
+    display: none;
+}
 .widget-cupo--postula {
     margin: 10px;
 }
@@ -1677,6 +1679,7 @@ table {
     }
     .widget-solicitud:hover{
         background-color: #6004d4 ;
+        color: #fff;
     }
 
     .card-body {
@@ -1753,5 +1756,97 @@ table {
     }
     .sin_salto{
         display: none;
+    }
+}
+/*****REGLAMENTO INTERNO MOVILES******/
+@media screen and (max-width: 470px){
+    .widget--reglamento{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        margin: 0 0 13.8212px 0;
+        padding: 0;
+        align-items: center;
+        border: none;
+        font-family: BRCandor;
+        font-size: 14px;
+        padding-left: 11px;
+    }
+    .widget--reglamento:hover{
+        background-color: #6004d4 ;
+        color: #fff;
+    }
+    .button-ghost--reglamento{
+        display: none;
+    }
+    .widget-text{
+        font-size: 8px;
+    }
+}
+/*****POSTULAR MOVILES******/
+@media screen and (max-width: 470px){
+    .postula-title{
+        font-size: 14px;
+        padding: 10.2984px 12px 9.1115px 12.4407px;
+        font-family: BRCandor;
+        /*margin-left: 14px;
+        margin-right: 14px;*/
+        width: 100%;
+    }
+    .salto-postular{
+        display: inline;
+        line-height: 6px;
+        width: 100%;
+    }
+    .postula-sub{
+        margin: 18.2346px 13.4106px 20.9481px 12.2005px;
+        font-family: BRCandor;
+        font-size: 14px;
+        text-align: left;
+        padding: 12.1228px 0 10.2917px 10.8463px;
+    }
+    .postula-body{
+        padding-top: 0;
+        padding-bottom: 0;
+        min-height: auto;
+    }
+    .sub-postula{
+        font-size: 12px
+    }
+    .postula-ul-text{
+        font-size: 10px;
+        margin: 0;
+    }
+    .postula-button{
+        font-size: 12px;
+        border: 2px solid;
+        padding: 7.6216px 19.867px 7.5457px 19.7758px;
+        margin-top: 14.1112px;
+    }
+    .footer-postular{
+        margin-top: 0;
+        padding: 14.5275px 0 0 0;
+    }
+    .widget-cupo-num{
+       font-size: 19.75px;
+       left: 25px;
+       top: calc(50% - 100px);
+    }
+    .widget-postula{
+        font-size: 10px;
+    }
+    .widget-cupo{
+        padding: 16.1936px 16.5779px 11.1218px 10.5524px;
+        margin: 0;
+    }
+    .widget-cupo-box::after{
+        content: url(./image/flecha.png);
+        position: absolute;
+        width: 50px;
+        height: 45px;
+        left: -85px;
+        bottom: 50%;
+        transform: rotate(0deg);
+        background-color: transparent;
     }
 }
