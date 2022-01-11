@@ -1608,6 +1608,7 @@ table {
         text-transform: lowercase;
         font-size: 14px;
         padding-left: 11px;
+        font-weight: bold;
     }
     .widget--plan:hover{
         background-color: #6004d4;
@@ -1753,6 +1754,8 @@ table {
     .widget-text--planes{
         font-size: 13px;
         height: 45.26px;
+        font-weight: bold;
+        text-transform: capitalize;
     }
     .sin_salto{
         display: none;
@@ -1848,5 +1851,159 @@ table {
         bottom: 50%;
         transform: rotate(0deg);
         background-color: transparent;
+    }
+}
+/*****BENEFICIOS MOVILES******/
+@media screen and (max-width: 470px){
+    .row-beneficio{
+        display: flex;
+        flex-direction: column;
+        margin: 13.4587px 0 6.6284px 8.3385px;
+    }
+    .img-beneficio{
+        flex: 0 0 auto;
+        width: 92px;
+        height: 69px;
+        background-position: center;
+        background-size: cover;
+        margin-bottom: 11px;
+        margin-left: 2px;
+    }
+    .titulo-beneficio{
+        font-size: 28px;
+        font-weight: bold;
+        font-family: BRCandor;
+        margin-bottom: 13px;
+    }
+    .titulo2-beneficio{
+        font-size: 19px;
+        color: #ff1930;
+        font-weight: bold;
+        margin-bottom: 12px;
+    }
+    .ticket-imagen{
+        flex: 0 0 auto;
+        width: 90px;
+        height: 138px;
+        background-position: center;
+        background-size: cover;
+        border-radius: 13px 0 0 13px;
+    }
+    .tickets-beneficio{
+        width: 100%;
+    }
+    .ticket-formulario{
+        flex: 1 1 auto;
+    }
+    .title-cupon{
+        font-size: 15px;
+        font-family: BRCandor;
+        text-align: left;
+        margin: 26.6381px 0 10.4156px 17.5726px;
+        font-weight: bold;
+    }
+    .ticket-body--beneficios{
+        flex: 1 1 auto;
+        background-color: #fff;
+        overflow: hidden;
+        border-radius: 0px 13px 13px 0;
+        height: 138px;
+        box-shadow: 0px 0px 12px #a8a6a6, -6px -6px 25px #ffffff;
+        margin-bottom: 12.4277px;
+    }
+    .beneficio-text{
+        color: #717592;
+        font-size: 9px;
+        margin-left: 17.5726px;
+        margin-bottom: 23.7711px;
+    }
+    .ticket-beneficio{
+        display: flex;
+        margin-left: 8.3385px;
+        margin-right: 10px;
+    }
+    .row3{
+        display: flex;
+    }
+    .ticket-icono{
+        width: 48px;
+        height: 48px;
+        margin-left: 8.3385px;
+        flex: 0 0 auto;
+        background-size: cover;
+        
+    }
+    .row3-text{
+        margin-left: 10px;
+        font-size: 12px;
+        font-weight: bold;
+        font-family: BRCandor;
+    }
+    .row4{
+        display: flex;
+        width: 100%;
+    }
+    .icono-asteristo{
+        width: 7px;
+        height: 7px;
+        margin-left: 22.8291px;
+        flex: 0 0 auto;
+        background-size: cover;
+        margin-top: 21px;
+        
+    }
+    .row4-text{
+        margin-left: 3px;
+        margin-top: 17px;
+        font-size: 9.5px;
+        font-weight: bold;
+        font-family: BRCandor;
+    }
+    .row5{
+        display: flex;
+        width: 100%;
+    }
+    .icono-asteristo2{
+        width: 7px;
+        height: 7px;
+        margin-left: 12.3386px;
+        flex: 0 0 auto;
+        background-size: cover;
+        margin-top: 16.5px; 
+    }
+    .icono-asteristo3{
+        width: 7px;
+        height: 7px;
+        margin-left: 2px;
+        flex: 0 0 auto;
+        background-size: cover;
+        margin-top: 16.5px; 
+    }
+    .row5-text{
+        margin-left: 4px;
+        margin-top: 11px;
+        font-size: 9.5px;
+        font-weight: bold;
+        font-family: BRCandor;
+    }
+    .beneficio-text-4{
+        margin-bottom: 0;
+    }
+    .beneficio-button{
+        font-size: 8px;
+        font-family: BRCandor;
+        border: 2px solid #5851ff;
+        border-radius: 12px;
+        color: #5851ff;
+        font-weight: bold;
+        padding: 6px 12px 6px 12px;
+        margin: 11px 0 11px 17.5724px;
+    }
+    .beneficio-button:hover{
+        background-color: #5851ff;
+        color: #fff;
+    }
+    .footer-beneficio{
+        margin-top: 0;
     }
 }
