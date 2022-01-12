@@ -1284,10 +1284,10 @@ table {
     .ticket-cupo{
         font-size: 10px;
         width: 83.3176px;
-        height: 104.1613px;
+        height: 112px;
         border-radius: 11px;
         padding: 18px 20px;
-        line-height: 14px;
+        line-height: 16px;
     }
     .ticket-cupo span{
         border-radius: 5px;
@@ -1301,7 +1301,7 @@ table {
     }
     .ticket-body{
         width: 119.0126px;
-        height: 104.1613px;
+        height: 112px;
         line-height: 7px;
     }
     .ticket-title{
@@ -1351,7 +1351,7 @@ table {
     }
     .ticket-img{
         width: 87.49px;
-        height: 104px;
+        height: 112px;
     }
     .ticket-from{
         margin: 15px 0 15px 15px
