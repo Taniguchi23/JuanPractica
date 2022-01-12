@@ -1558,9 +1558,9 @@ table {
       padding-left: 13px;
       display: flex;
       flex-wrap: wrap;
-      padding-top: 18px;
+      padding-top: 20px;
       background-color: #fafafa;
-      font-family: BRCandor;
+      font-family: BRCandor-Bold;
       font-size: 14px;
       width: 100%;
   }
@@ -1576,7 +1576,7 @@ table {
 
   .buscar{
       font-size: 14px;
-      font-family: BRCandor;
+      font-family: BRCandor-medium;
       margin: 18px 0 7px 0;
   }
   .search{
@@ -1607,15 +1607,28 @@ table {
       margin-top: 20px;
       width: 100%;
   }
-  .table--renovacion{
-      margin-top: 0px;
-  }
-  .card-nuevo--renovacion{
-      padding: 20px 15px 20px 10px;
-  }
+    .table--renovacion{
+        margin-top: 0px;
+    }
+    .card-nuevo--renovacion{
+        padding: 20px 15px 20px 10px;
+    }
 
     .footer--renovacion{
         padding: 0;
+    }
+
+    .card-box-r{
+        font-size: 14px;
+        font-family: BRCandor-Bold;
+        padding-top: 19px;
+        padding-bottom: 0px;
+    }
+    .footer-renovacion{
+        margin-top: 0px;
+    }
+    .b-ghost--renovacion{
+        color: #ff1930;
     }
 }
 /*****PLAN MOVILES******/
@@ -1896,8 +1909,8 @@ table {
         font-size: 14px;
         padding: 10.2984px 12px 9.1115px 12.4407px;
         font-family: BRCandor-bold;
-        /*margin-left: 14px;
-        margin-right: 14px;*/
+        margin-left: 8px;
+        margin-right: 8px;
         width: 100%;
     }
     .salto-postular{
@@ -1967,6 +1980,28 @@ table {
     .widget-cupo--postula{
         margin-right: 30px;
         margin-left: 19px;
+    }
+    .subtitle--postular{
+        font-family: BRCandor-Bold;
+        background-color: #ff1930;
+        display: inline-block;
+        font-size: 16px;
+        width: 100%;
+        color: #fff;
+        padding: 12px 13px 10px 14px;
+        border-radius: 4px;
+        position: relative;
+        margin-bottom: 0px;
+        z-index: 2;
+    }
+    .numeros{
+        margin: 0px;
+        text-align: center;
+        font-family: BRCandor-bold;
+        font-size: 10px;
+    }
+    .card-body-postula{
+        padding-bottom: 0px;
     }
 }
 /*****BENEFICIOS MOVILES******/
