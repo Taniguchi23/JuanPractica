@@ -1620,11 +1620,10 @@ table {
         align-items: center;
         border: none;
         box-shadow: 0px 0px 12px #a8a6a6, -6px -6px 25px #ffffff;
-        font-family: BRCandor;
+        font-family: BRCandor-bold;
         text-transform: lowercase;
         font-size: 14px;
         padding-left: 11px;
-        font-weight: bold;
     }
     .widget--plan:hover{
         background-color: #6004d4;
@@ -1632,6 +1631,9 @@ table {
     }
     .mayuscula{
         text-transform: capitalize;
+    }
+    .mayuscula--espacio{
+        margin-left: 3px;
     }
     .card-body--plan{
         padding: 17.9654px 25.3139px 0 25.2052px;
@@ -1824,7 +1826,7 @@ table {
     .postula-title{
         font-size: 14px;
         padding: 10.2984px 12px 9.1115px 12.4407px;
-        font-family: BRCandor;
+        font-family: BRCandor-bold;
         /*margin-left: 14px;
         margin-right: 14px;*/
         width: 100%;
@@ -1836,7 +1838,7 @@ table {
     }
     .postula-sub{
         margin: 18.2346px 13.4106px 20.9481px 12.2005px;
-        font-family: BRCandor;
+        font-family: BRCandor-bold;
         font-size: 14px;
         text-align: left;
         padding: 12.1228px 0 10.2917px 10.8463px;
@@ -1847,17 +1849,20 @@ table {
         min-height: auto;
     }
     .sub-postula{
-        font-size: 12px
+        font-size: 12px;
+        font-family: BRCandor-bold;
     }
     .postula-ul-text{
-        font-size: 10px;
+        font-size: 12px;
         margin: 0;
+        font-family: BRCandor-regular;
     }
     .postula-button{
         font-size: 12px;
         border: 2px solid;
         padding: 7.6216px 19.867px 7.5457px 19.7758px;
         margin-top: 14.1112px;
+        font-family: BRCandor-bold;
     }
     .footer-postular{
         margin-top: 0;
