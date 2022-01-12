@@ -1,8 +1,8 @@
 Buscador Colaboradores= buscaColaboradores  / 460 bueno , problemas al disminuir
 2.cuponera = cupones  -------
-3.Gestion CTS = index
+3.Gestion CTS = index  ----------
 7. Gestión de Renuncia = renuncia / falta alinear
-8. Renovación de contratos  = renovacion
+8. Renovación de contratos  = renovacion  /falta alinear
 
 //Cuerpo Sano
 3. EPS = plan -----
