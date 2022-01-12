@@ -1672,7 +1672,7 @@ table {
     border-left: solid 2px #e4e2e9;
     padding-left: 10px;
 }
-
+/***********INDEX************/
 @media (max-width: 600px) {
     .display-none {
         display: flex !important;
@@ -1688,7 +1688,8 @@ table {
         display: flex;
         padding: 10px 10px;
         align-items: center;
-        margin: 20px 0;
+        margin: 0;
+        margin-bottom: 15px;
         box-shadow: 0px 0px 6px #969cac, -4px -4px 15px #ffffff;
     }
     .widgets--solicitud {
@@ -1701,8 +1702,47 @@ table {
         color: #fff;
     }
 
+    .index-ul-text{
+        font-size: 11px;
+        font-family: BRCandor-regular;
+        margin-top: 10px;
+    }
+
+    .bgtitle{
+        margin-top: 7px;
+        font-family: BRCandor;
+        font-size: 12px;
+        width: 310px;
+    }
+    .widget-title{
+        font-size: 18px;
+        font-family: BRCandor-regular;
+        margin-left: 0px;
+    }
+    .bold-index{
+        font-weight: normal;
+    }
+
+    .widget--red{
+        width: 180px;
+        height: 170px;
+        padding-top: 20px;
+        padding-left: 16px;
+    }
+
+    .card-subtitle-v2{
+        font-size: 14px;
+        font-family: BRCandor-bold;
+        margin-left: 23px;
+    }
+
     .card-body {
         padding: 20px 10px;
+    }
+
+    .card-body-edit{
+        padding-bottom: 0px;
+        padding-top: 20px;
     }
     .widget-img {
         margin: 0;
@@ -1723,6 +1763,10 @@ table {
         margin-left: 0;
     }
 
+    .footer-index{
+        margin-top: 0;
+    }
+
     /* .footer {
     max-width: 50%;
     background-color: #fff;
@@ -1739,7 +1783,7 @@ table {
 }
 
 .widget-carousel {
-    height: 230px;
+    height: 170px;
     width: 153px;
     min-width: 153px;
 }
@@ -1750,6 +1794,14 @@ table {
     display: inline-flex;
     height: 100px;
     overflow: hidden;
+    font-size: 16px;
+    font-family: BRCandor-Regular;
+    margin-top: 9px;
+}
+
+.widget-img--index{
+    width: 50px;
+    height: 50px;
 }
 
 .carousel-red {
