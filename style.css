@@ -1363,6 +1363,7 @@ table {
         padding: 0px;
         background-color: #fff;
         margin-top: 18px;
+
     }
     .widget-box-body{
         padding: 0;
@@ -1373,6 +1374,7 @@ table {
     }
     .table{
         width: 100%;
+        font-family: BRCandor-Bold;
     }
     .table tr{
         display: block;
@@ -1393,6 +1395,8 @@ table {
         font-weight: bold;
         float: left;
     }
+
+
     .bg-shadown{
         box-shadow: none;
     }
