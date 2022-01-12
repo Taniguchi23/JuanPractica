@@ -1346,7 +1346,7 @@ table {
         width: 34.5px;
         height: 14.16px;
         font-size: 7.63px;
-        margin: 5px;
+        margin: 5px 5px 5px 0;
         padding: 2px ;
     }
     .ticket-img{
