@@ -1,0 +1,16 @@
+Buscador Colaboradores= buscaColaboradores  / 460 bueno , problemas al disminuir
+2.cuponera = cupones  -------
+3.Gestion CTS = index
+7. Gestión de Renuncia = renuncia
+8. Renovación de contratos  = renovacion
+
+//Cuerpo Sano
+3. EPS = plan
+4. Plan de Padres AMC = planes exclusivos
+
+//Tu Entorno
+1. Beneficios Flex = beneficios
+
+//Lineamientos
+1. Convocatorias =postular
+2. Reglamento Interno = reglamento
