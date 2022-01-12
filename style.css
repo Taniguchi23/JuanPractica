@@ -1496,6 +1496,7 @@ table {
     }
 
 
+
 }
 /*****BUSCADOR COLABORADOR MOVILES******/
 @media screen and (max-width: 470px) {
@@ -1598,25 +1599,21 @@ table {
         width: 100%;
     }
 
-    /* .search-img{
-        right: -20px;
-
-    } */
-
-
-
-
-
   .table--r{
 
       justify-content: space-around;
-
       border-radius: 10px;
-
       padding: 0 19px;
       margin-top: 20px;
       width: 100%;
   }
+  .table--renovacion{
+      margin-top: 0px;
+  }
+  .card-nuevo--renovacion{
+      padding: 20px 15px 20px 10px;
+  }
+
     .footer--renovacion{
         padding: 0;
     }
