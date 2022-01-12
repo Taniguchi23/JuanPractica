@@ -1482,6 +1482,14 @@ table {
         border-top: 1.5px solid #e4e2e9;
         margin-top: 17.9654px;
     }
+
+    .table-movil td span {
+        width: 200px;
+        display: inline-block;
+        text-align: left;
+    }
+
+
 }
 /*****BUSCADOR COLABORADOR MOVILES******/
 @media screen and (max-width: 470px) {
@@ -1538,6 +1546,7 @@ table {
       display: inline;
     }
 
+
   .card-box--renovacion{
       padding-left: 13px;
       display: flex;
@@ -1546,7 +1555,10 @@ table {
       background-color: #fafafa;
       font-family: BRCandor;
       font-size: 14px;
+      width: 100%;
   }
+
+
   .title-renovacion{
       font-size: 14px;
       display: contents;
@@ -1565,7 +1577,11 @@ table {
       flex-direction: column;
       align-items: flex-start;
       font-family: BRCandor-Medium;
+      width: 100%;
 
+  }
+  .search-box {
+    width: 100%;
   }
     .search input{
         background-color: #eeedff;
@@ -1573,12 +1589,13 @@ table {
         flex-wrap: wrap;
         border-radius: 10px;
         margin-left: 0px;
+        width: 100%;
     }
 
-    .search-img{
+    /* .search-img{
         right: -20px;
 
-    }
+    } */
 
 
 
