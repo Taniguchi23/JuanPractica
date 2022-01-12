@@ -35,7 +35,9 @@ body {
     padding: 0;
 
 }
-
+.mayuscula{
+    display: inline;
+}
 
 
 .container  {
@@ -149,7 +151,20 @@ body {
     display: block;
     margin-bottom: 30px;
 }
-
+.text-reglamento1{
+    font-size: 14px;
+    font-weight: BRCandor;
+}
+.text-reglamento2{
+    font-size: 13px;
+    font-family: BRCandor-Medium;
+    margin-top: 13px;
+    margin-bottom: 13px;
+}
+.button-ghost--reglamento{
+    background-color: #fff;
+    font: 15px BRCandor-bold;
+}
 
 /*////////////////////////////////*/
 
@@ -181,7 +196,6 @@ body {
     border: 0px;
     font-size: 16px;
     padding: 30px 10px;
-    white-space: normal;
 }
 
 .widget--auto {
@@ -1020,7 +1034,9 @@ table {
     display: flex;
     align-items: center;
 }
-
+.salto-postular{
+    display: none;
+}
 .widget-cupo--postula {
     margin: 10px;
 }
@@ -1244,10 +1260,13 @@ table {
         margin-top: 20px;
         margin: 1px;
     }
-
+    .card--cupones{
+        margin-bottom: 12px;
+    }
     .card-body--cupones{
-        padding: 12px 7px 12px 13px;
-        font-size: 11px;
+        padding: 12px 7px 0px 13px !important;
+        font-size: 12px;
+        line-height: 14px;
     }
     .ticket{
         margin: 0 15px 5px 15px;
@@ -1265,10 +1284,10 @@ table {
     .ticket-cupo{
         font-size: 10px;
         width: 83.3176px;
-        height: 104.1613px;
+        height: 112px;
         border-radius: 11px;
         padding: 18px 20px;
-        line-height: 14px;
+        line-height: 16px;
     }
     .ticket-cupo span{
         border-radius: 5px;
@@ -1282,7 +1301,7 @@ table {
     }
     .ticket-body{
         width: 119.0126px;
-        height: 104.1613px;
+        height: 112px;
         line-height: 7px;
     }
     .ticket-title{
@@ -1327,12 +1346,12 @@ table {
         width: 34.5px;
         height: 14.16px;
         font-size: 7.63px;
-        margin: 5px;
+        margin: 5px 5px 5px 0;
         padding: 2px ;
     }
     .ticket-img{
         width: 87.49px;
-        height: 104px;
+        height: 112px;
     }
     .ticket-from{
         margin: 15px 0 15px 15px
@@ -1344,6 +1363,7 @@ table {
         padding: 0px;
         background-color: #fff;
         margin-top: 18px;
+
     }
     .widget-box-body{
         padding: 0;
@@ -1354,6 +1374,7 @@ table {
     }
     .table{
         width: 100%;
+        font-family: BRCandor-Bold;
     }
     .table tr{
         display: block;
@@ -1374,6 +1395,8 @@ table {
         font-weight: bold;
         float: left;
     }
+
+
     .bg-shadown{
         box-shadow: none;
     }
@@ -1459,6 +1482,14 @@ table {
         border-top: 1.5px solid #e4e2e9;
         margin-top: 17.9654px;
     }
+
+    .table-movil td span {
+        width: 200px;
+        display: inline-block;
+        text-align: left;
+    }
+
+
 }
 /*****BUSCADOR COLABORADOR MOVILES******/
 @media screen and (max-width: 470px) {
@@ -1514,77 +1545,122 @@ table {
   .corte{
       display: inline;
     }
-  .footer--renovacion{
-      padding: 0;
-  }
-  .title-renovacion{
-      font-size: 14px;
-      display: contents;
-      font-family: BRCandor;
-      line-height: 12px;
-  }
-  .search-img{
-      right: -20px;
-  }
-  .buscar{
-      font-size: 14px;
-      font-family: BRCandor;
-      margin: 24.1312px 0 6.6286px 0;
-  }
-  .search{
-      font-size: 14px;
-      flex-direction: column;
-      align-items: flex-start;
-  }
-  .search-input{
-      width: 110%;
-  }
-  .b-ghost--red-renuncia{
-      padding: 11.5167px 27.5984px 11.5167px 27.5984px;
-      color: #ff1930;
-      font-size: 16.62px;
-      font-family: BRCandor;
-      margin: 19.2668px 9.2548px 0 0;
-      border: 2px solid #ff1930;
-  }
-  .card-box{
+
+
+  .card-box--renovacion{
+      padding-left: 13px;
       display: flex;
       flex-wrap: wrap;
       padding-top: 18px;
       background-color: #fafafa;
       font-family: BRCandor;
       font-size: 14px;
-  }
-  .search input{
-      background-color: #eeedff;
-      display: flex;
-      flex-wrap: wrap;
-      border-radius: 10px;
-      margin-left: 0px;
-  }
-  .table--r{
-      font-size: 11px;
-      background-color: #000;
-      padding: 0px;
       width: 100%;
   }
-  .card-nuevo{
-      flex-direction: row;
+
+
+  .title-renovacion{
+      font-size: 14px;
+      display: contents;
+      font-family: BRCandor-Bold;
+
+      line-height: 12px;
   }
+
+  .buscar{
+      font-size: 14px;
+      font-family: BRCandor;
+      margin: 18px 0 7px 0;
+  }
+  .search{
+      font-size: 14px;
+      flex-direction: column;
+      align-items: flex-start;
+      font-family: BRCandor-Medium;
+      width: 100%;
+
+  }
+  .search-box {
+    width: 100%;
+  }
+    .search input{
+        background-color: #eeedff;
+        display: flex;
+        flex-wrap: wrap;
+        border-radius: 10px;
+        margin-left: 0px;
+        width: 100%;
+    }
+
+    /* .search-img{
+        right: -20px;
+
+    } */
+
+
+
+
+
   .table--r{
-      display: block;
+
       justify-content: space-around;
-      background-color: #fff;
+
       border-radius: 10px;
-      color: black;
+
       padding: 0 19px;
       margin-top: 20px;
       width: 100%;
   }
-
+    .footer--renovacion{
+        padding: 0;
+    }
 }
-
-/*///////movil index.html///////*/
+/*****PLAN MOVILES******/
+@media screen and (max-width: 470px){
+    #plan-quitar{
+        display: none;
+    }
+    .widgets{
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+    }
+    .widget--plan{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        margin: 0 0 13.8212px 0;
+        padding: 0;
+        align-items: center;
+        border: none;
+        box-shadow: 0px 0px 12px #a8a6a6, -6px -6px 25px #ffffff;
+        font-family: BRCandor-Bold;
+        text-transform: lowercase;
+        font-size: 14px;
+        padding-left: 11px;
+    }
+    .widget--plan:hover{
+        background-color: #6004d4;
+        color: #fff
+    }
+    .mayuscula{
+        text-transform: capitalize;
+    }
+    .mayuscula--espacio{
+        margin-left: 3px;
+    }
+    .card-body--plan{
+        padding: 17.9654px 25.3139px 0 25.2052px;
+    }
+    .widget-img{
+        width: 24px;
+        height: 24px;
+        margin: 10.9699px 7.5448px 10.9699px 10.4438px;
+    }
+    .footer-plan{
+        margin: 0;
+    }
+}
 .display-none {
     display: none !important;
 }
@@ -1610,7 +1686,7 @@ table {
     border-left: solid 2px #e4e2e9;
     padding-left: 10px;
 }
-
+/***********INDEX************/
 @media (max-width: 600px) {
     .display-none {
         display: flex !important;
@@ -1626,17 +1702,61 @@ table {
         display: flex;
         padding: 10px 10px;
         align-items: center;
-        margin: 20px 0;
+        margin: 0;
+        margin-bottom: 15px;
         box-shadow: 0px 0px 6px #969cac, -4px -4px 15px #ffffff;
     }
     .widgets--solicitud {
         display: block;
         margin: 0;
-        
+
+    }
+    .widget-solicitud:hover{
+        background-color: #6004d4 ;
+        color: #fff;
+    }
+
+    .index-ul-text{
+        font-size: 11px;
+        font-family: BRCandor-regular;
+        margin-top: 10px;
+    }
+
+    .bgtitle{
+        margin-top: 7px;
+        font-family: BRCandor;
+        font-size: 12px;
+        width: 310px;
+    }
+    .widget-title{
+        font-size: 18px;
+        font-family: BRCandor-regular;
+        margin-left: 0px;
+    }
+    .bold-index{
+        font-weight: normal;
+    }
+
+    .widget--red{
+        width: 180px;
+        height: 170px;
+        padding-top: 20px;
+        padding-left: 16px;
+    }
+
+    .card-subtitle-v2{
+        font-size: 14px;
+        font-family: BRCandor-bold;
+        margin-left: 23px;
     }
 
     .card-body {
         padding: 20px 10px;
+    }
+
+    .card-body-edit{
+        padding-bottom: 0px;
+        padding-top: 20px;
     }
     .widget-img {
         margin: 0;
@@ -1654,16 +1774,22 @@ table {
 
     .widgets--pasos {
         margin-right: 0;
-    margin-left: 0;
+        margin-left: 0;
     }
-    
+
+    .footer-index{
+        margin-top: 0;
+    }
+
     /* .footer {
     max-width: 50%;
     background-color: #fff;
     margin-top: 30px;
     padding: 35px 0;
 } */
-    
+ .footer--cts--index{
+     display: none;
+ }
 }
 /* csss */
 .i-amphtml-scrollable-carousel-container {
@@ -1671,7 +1797,7 @@ table {
 }
 
 .widget-carousel {
-    height: 230px;
+    height: 170px;
     width: 153px;
     min-width: 153px;
 }
@@ -1682,6 +1808,14 @@ table {
     display: inline-flex;
     height: 100px;
     overflow: hidden;
+    font-size: 16px;
+    font-family: BRCandor-Regular;
+    margin-top: 9px;
+}
+
+.widget-img--index{
+    width: 50px;
+    height: 50px;
 }
 
 .carousel-red {
@@ -1689,5 +1823,294 @@ table {
     white-space: normal;
 }
 .amp-carousel-button {
-    display: none;  
+    display: none;
+}
+/*****PLAN EXCLUSIVOS MOVILES******/
+@media screen and (max-width: 470px){
+    .title-planesexclusivos{
+        font-size: 14px;
+        margin: 17.9654px 0 17.9654px 0;
+        font-family: BRCandor-Bold;
+    }
+    .card-body--planes{
+        padding: 0 25.3139px 17.9995px 25.3139px;
+    }
+    .widget-text--planes{
+        font-family: BRCandor-SemiBold;
+        font-size: 13px;
+        height: 45.26px;
+        font-weight: bold;
+        text-transform: capitalize;
+        line-height: 15px;
+    }
+    .sin_salto{
+        display: none;
+    }
+    .widget-text--planes:hover{
+        background: #5f00d0;
+        color: #ffffff;
+    }
+}
+/*****REGLAMENTO INTERNO MOVILES******/
+@media screen and (max-width: 470px){
+    .widget--reglamento{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        margin: 0 0 13.8212px 0;
+        padding: 0;
+        align-items: center;
+        border: none;
+        font-family: BRCandor-bold;
+        font-size: 16px;
+        padding-left: 11px;
+        align-items: flex-start;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .widget--reglamento:hover{
+        background-color: #6004d4 ;
+        color: #fff;
+    }
+    .button-ghost--reglamento{
+        display: none;
+    }
+    .widget-text{
+        font-size: 8px;
+        position: absolute;
+        margin-top: 14px;
+        margin-left: 40px;
+    }
+    .widget-img--2{
+        width: 30px;
+        height: 30px;
+    }
+
+}
+/*****POSTULAR MOVILES******/
+@media screen and (max-width: 470px){
+    .postula-title{
+        font-size: 14px;
+        padding: 10.2984px 12px 9.1115px 12.4407px;
+        font-family: BRCandor-bold;
+        /*margin-left: 14px;
+        margin-right: 14px;*/
+        width: 100%;
+    }
+    .salto-postular{
+        display: inline;
+        line-height: 6px;
+        width: 100%;
+    }
+    .postula-sub{
+        margin: 18.2346px 13.4106px 20.9481px 12.2005px;
+        font-family: BRCandor-bold;
+        font-size: 14px;
+        text-align: left;
+        padding: 12.1228px 0 10.2917px 10.8463px;
+    }
+    .postula-body{
+        padding-top: 0;
+        padding-bottom: 0;
+        min-height: auto;
+    }
+    .sub-postula{
+        font-size: 12px;
+        font-family: BRCandor-bold;
+    }
+    .postula-ul-text{
+        font-size: 12px;
+        margin: 0;
+        font-family: BRCandor-regular;
+    }
+    .postula-button{
+        font-size: 12px;
+        border: 2px solid;
+        padding: 7.6216px 19.867px 7.5457px 19.7758px;
+        margin-top: 14.1112px;
+        font-family: BRCandor-bold;
+    }
+    .footer-postular{
+        margin-top: 0;
+        padding: 14.5275px 0 0 0;
+    }
+    .widget-cupo-num{
+       font-size: 19.75px;
+       left: 25px;
+       top: calc(50% - 100px);
+    }
+    .widget-postula{
+        font-size: 10px;
+    }
+    .widget-cupo{
+        padding: 16.1936px 16.5779px 11.1218px 10.5524px;
+        margin: 0;
+    }
+    .widget-cupo-box::after{
+        content: url(./image/flecha.png);
+        position: absolute;
+        width: 50px;
+        height: 45px;
+        left: -85px;
+        bottom: 50%;
+        transform: rotate(0deg);
+        background-color: transparent;
+    }
+}
+/*****BENEFICIOS MOVILES******/
+@media screen and (max-width: 470px){
+    .row-beneficio{
+        display: flex;
+        flex-direction: column;
+        margin: 13.4587px 0 12px 8.3385px;
+    }
+    .img-beneficio{
+        flex: 0 0 auto;
+        width: 92px;
+        height: 69px;
+        background-position: center;
+        background-size: cover;
+        margin-bottom: 11px;
+        margin-left: 2px;
+    }
+    .titulo-beneficio{
+        font-size: 28px;
+        font-weight: bold;
+        font-family: BRCandor-bold;
+        margin-bottom: 13px;
+    }
+    .titulo2-beneficio{
+        font-size: 19px;
+        color: #ff1930;
+        font-weight: bold;
+        font-family: BRCandor-bold;
+    }
+    .ticket-imagen{
+        flex: 0 0 auto;
+        width: 90px;
+        height: 138px;
+        background-position: center;
+        background-size: cover;
+        border-radius: 13px 0 0 13px;
+    }
+    .tickets-beneficio{
+        width: 100%;
+    }
+    .ticket-formulario{
+        flex: 1 1 auto;
+    }
+    .title-cupon{
+        font-size: 15px;
+        font-family: BRCandor-bold;
+        text-align: left;
+        margin: 26.6381px 0 10.4156px 17.5726px;
+        font-weight: bold;
+    }
+    .ticket-body--beneficios{
+        flex: 1 1 auto;
+        background-color: #fff;
+        overflow: hidden;
+        border-radius: 0px 13px 13px 0;
+        height: 138px;
+        box-shadow: 0px 0px 12px #a8a6a6, -6px -6px 25px #ffffff;
+        margin-bottom: 12.4277px;
+    }
+    .beneficio-text{
+        color: #717592;
+        font-size: 9px;
+        margin-left: 17.5726px;
+        margin-bottom: 23.7711px;
+    }
+    .ticket-beneficio{
+        display: flex;
+        margin-left: 8.3385px;
+        margin-right: 10px;
+    }
+    .row3{
+        display: flex;
+    }
+    .ticket-icono{
+        width: 48px;
+        height: 48px;
+        margin-left: 8.3385px;
+        flex: 0 0 auto;
+        background-size: cover;
+        
+    }
+    .row3-text{
+        margin-left: 10px;
+        font-size: 12px;
+        font-weight: bold;
+        font-family: BRCandor-bold;
+    }
+    .row4{
+        display: flex;
+        width: 100%;
+    }
+    .icono-asteristo{
+        width: 7px;
+        height: 7px;
+        margin-left: 22.8291px;
+        flex: 0 0 auto;
+        background-size: cover;
+        margin-top: 21px;
+        
+    }
+    .row4-text{
+        margin-left: 3px;
+        margin-top: 17px;
+        font-size: 9.5px;
+        font-family: BRCandor-medium;
+    }
+    .semi-bold{
+        font-family: BRCandor-SemiBold;
+        
+    }
+    .row5{
+        display: flex;
+        width: 100%;
+    }
+    .icono-asteristo2{
+        width: 7px;
+        height: 7px;
+        margin-left: 12.3386px;
+        flex: 0 0 auto;
+        background-size: cover;
+        margin-top: 16.5px; 
+    }
+    .icono-asteristo3{
+        width: 7px;
+        height: 7px;
+        margin-left: 2px;
+        flex: 0 0 auto;
+        background-size: cover;
+        margin-top: 16.5px; 
+    }
+    .row5-text{
+        margin-left: 4px;
+        margin-top: 11px;
+        font-size: 9.5px;
+        font-family: BRCandor-medium;
+    }
+    .beneficio-text-4{
+        margin-bottom: 0;
+    }
+    .beneficio-button{
+        font-size: 8px;
+        font-family: BRCandor;
+        border: 2px solid #5851ff;
+        border-radius: 12px;
+        color: #5851ff;
+        font-weight: bold;
+        padding: 6px 12px 6px 12px;
+        margin: 11px 0 11px 17.5724px;
+        background-color: #fff;
+    }
+    .beneficio-button:hover{
+        background-color: #5851ff;
+        color: #fff;
+    }
+    .footer-beneficio{
+        margin-top: 0;
+    }
 }
