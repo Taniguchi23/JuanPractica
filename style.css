@@ -1936,25 +1936,34 @@ table {
     }
     .widget-cupo-num{
        font-size: 19.75px;
-       left: 25px;
-       top: calc(50% - 100px);
+       left: 43px;
+       top: calc(50% - 92px);
     }
     .widget-postula{
-        font-size: 10px;
+        font-size: 12px;
+        font-family: BRCandor-regular;
     }
     .widget-cupo{
         padding: 16.1936px 16.5779px 11.1218px 10.5524px;
         margin: 0;
+        width: 140px;
     }
     .widget-cupo-box::after{
-        content: url(./image/flecha.png);
-        position: absolute;
-        width: 50px;
+        content: url(./image/flechaazul.png);
+        position: relative;
+        width: 20px;
         height: 45px;
-        left: -85px;
+        right: -156px;
         bottom: 50%;
         transform: rotate(0deg);
         background-color: transparent;
+    }
+    .widgets-cupo{
+        overflow-y: auto;
+    }
+    .widget-cupo--postula{
+        margin-right: 30px;
+        margin-left: 19px;
     }
 }
 /*****BENEFICIOS MOVILES******/
