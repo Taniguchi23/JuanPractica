@@ -9,7 +9,7 @@ Buscador Colaboradores= buscaColaboradores  / 460 bueno , problemas al disminuir
 4. Plan de Padres AMC = planes exclusivos   -----
 
 //Tu Entorno
-1. Beneficios Flex = beneficios
+1. Beneficios Flex = beneficios -----
 
 //Lineamientos
 1. Convocatorias =postular
