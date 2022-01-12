@@ -1761,20 +1761,26 @@ table {
 @media screen and (max-width: 470px){
     .title-planesexclusivos{
         font-size: 14px;
-        font-family: BRCandor;
         margin: 17.9654px 0 17.9654px 0;
+        font-family: BRCandor-Bold;
     }
     .card-body--planes{
         padding: 0 25.3139px 17.9995px 25.3139px;
     }
     .widget-text--planes{
+        font-family: BRCandor-SemiBold;
         font-size: 13px;
         height: 45.26px;
         font-weight: bold;
         text-transform: capitalize;
+        line-height: 15px;
     }
     .sin_salto{
         display: none;
+    }
+    .widget-text--planes:hover{
+        background: #5f00d0;
+        color: #ffffff;
     }
 }
 /*****REGLAMENTO INTERNO MOVILES******/
