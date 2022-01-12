@@ -1787,7 +1787,7 @@ table {
         padding: 0;
         align-items: center;
         border: none;
-        font-family: BRCandor;
+        font-family: BRCandor-bold;
         font-size: 14px;
         padding-left: 11px;
         align-items: flex-start;
@@ -1804,8 +1804,12 @@ table {
     .widget-text{
         font-size: 8px;
         position: absolute;
-        margin-top: 10px;
-        margin-left: 35px;
+        margin-top: 14px;
+        margin-left: 40px;
+    }
+    .widget-img--2{
+        width: 30px;
+        height: 30px;
     }
 
 }
