@@ -1418,6 +1418,7 @@ table {
         height: 26px;
         border: none;
         width: 100%;
+        background-color: #fff;
     }
     .wrap-footer {
         width: 100%;
@@ -1731,6 +1732,9 @@ table {
         box-sizing: border-box;
         display: none;
     }
+    .card-subtitle--renuncia{
+        display: block;
+    }
     .widget-solicitud {
         border: 0;
         width: 98%;
@@ -1966,6 +1970,8 @@ table {
         padding: 7.6216px 19.867px 7.5457px 19.7758px;
         margin-top: 14.1112px;
         font-family: BRCandor-bold;
+        margin-right: 25px;
+        
     }
     .footer-postular{
         margin-top: 0;
