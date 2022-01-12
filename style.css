@@ -1358,6 +1358,9 @@ table {
     }
 }
 /*****GESTIÓN RENUNCIA MOVILES******/
+.invisible{
+    display: none;
+}
 @media screen and (max-width: 470px){
     .card-body--renuncia{
         padding: 0px;
@@ -1391,6 +1394,7 @@ table {
         text-align: right;
     }
     table td::before{
+        display: flex;
         content: attr(data-label);
         font-weight: bold;
         float: left;
@@ -1482,12 +1486,15 @@ table {
         border-top: 1.5px solid #e4e2e9;
         margin-top: 17.9654px;
     }
-
+    .invisible{
+        display: flex;
+    }
     .table-movil td span {
         width: 200px;
         display: inline-block;
         text-align: left;
     }
+
 
 
 }
@@ -1592,25 +1599,21 @@ table {
         width: 100%;
     }
 
-    /* .search-img{
-        right: -20px;
-
-    } */
-
-
-
-
-
   .table--r{
 
       justify-content: space-around;
-
       border-radius: 10px;
-
       padding: 0 19px;
       margin-top: 20px;
       width: 100%;
   }
+  .table--renovacion{
+      margin-top: 0px;
+  }
+  .card-nuevo--renovacion{
+      padding: 20px 15px 20px 10px;
+  }
+
     .footer--renovacion{
         padding: 0;
     }
