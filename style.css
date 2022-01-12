@@ -1488,6 +1488,12 @@ table {
     }
     .invisible{
         display: flex;
+
+    }
+    .ordenar {
+        width: 100%;
+        height: 10px;
+
     }
     .table-movil td span {
         width: 200px;
