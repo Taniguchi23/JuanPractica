@@ -1,8 +1,8 @@
-Buscador Colaboradores= buscaColaboradores  / 460 bueno , problemas al disminuir
+Buscador Colaboradores= buscaColaboradores  -----
 2.cuponera = cupones ----------------- listo
 3.Gestion CTS = index  --------------- listo
-7. Gestión de Renuncia --------------- listo
-8. Renovación de contratos  ---------- listo
+7. Gestión de Renuncia = renuncia--------------- listo
+8. Renovación de contratos = renovacion ---------- listo
 
 //Cuerpo Sano
 3. EPS = plan ------------------------ listo
