@@ -19,10 +19,17 @@ body {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-
+}
+.container{
+    margin: 0 auto;
+    max-width: 900px; 
+    width: 100%;
 }
 .logo1{
     margin-top: 35px;
+}
+.imagen-movil{
+    display: none;
 }
 .header-content{
     margin-top: 37px;
@@ -39,11 +46,6 @@ body {
 .text-header1{
     font-family: HelveticaNowDisplayLight;
     font-size: 12px;
-}
-.container{
-    margin: 0 auto;
-    max-width: 900px; 
-    width: 100%;
 }
 .container-body{
     display: flex;
@@ -151,7 +153,6 @@ body {
     padding: 9px 9px 6px 9px;
     width: 265px;
 }
-
 .line{
     display: flex;
 }
@@ -173,6 +174,9 @@ body {
     margin-top: 18px;
     padding-left: 12px;
     font-family: HelveticaNowDisplayXBd;
+}
+.esperamos-movil{
+    display: none;
 }
 .row-2{
     display: flex;
@@ -217,129 +221,139 @@ body {
     top: 288px;
     right: 1px;
 }
+.trapecio-movil{
+    display: none;
+}
 /*MOVIL*/
 @media screen and (max-width: 470px){
-    .container{
-        background-color: #E6281E;
-        padding-top: 20px;
-        position: fixed;
-    }
-    .container-body{
-        padding-left: 40px;
-    }
-    .titulos{
-        line-height: 36px;
-    }
-    .titulo1{
-        color: #fff;
-        font-size: 30px;
-    }
-    .titulo2{
-        color: #fff;
-        padding-left: 0px;
-        font-size: 50px;
-    }
-    .subtitle{
-        display: none;
-    }
-    .text{
-        padding-left: 0px;
-        font-size: 10px;
-        margin-top: 15px;
-        color: #fff;
-    }
-    .fecha{
-        flex-direction: column;
-        width: 100px;
-        height: 110px;
-    }
-    .hora{
-        flex-direction: column;
-        width: 100px;
-        height: 110px;
-    }
-    .plataforma{
-        flex-direction: column;
-        width: 100px;
-        height: 110px;
-    }
-    .icono{
-        padding-left: 53px;
-    }
-    .title-bold{
-        text-align: center;
-        font-size: 12px;
-        padding-left: 0px;
-        color: #000;
-    }
-    .text-card{
-        text-align: center;
-        line-height: 16px;
-        font-size:12px;
-        color: #000;
-    }
-    .card-fecha{
-        display: flex;
-        padding-left: 0;
-    }
-    .img-persona{
-        left: -91px;
-        width: 150px;
-        height: 250px;
-        bottom: 420px;
-    }
-    .prueba{
-        width: 250px;
-        height: 250px;
-        background-color: #fff;
-        clip-path: polygon(0 6%, 100% 0%, 100% 100%, 0% 100%);
-        border-top-right-radius: 40px;
-        display: flex;
-    }
-    .header{
-        background-color: #fff;
-        width: 145px;
-        height: 35px;
-        border-radius: 0px 10px 10px 0px;
-    }
     .logo1 img{
-        position: relative;
-        width: 30px;
-        margin-top: 0px;
-        bottom: 27px;
+        width: 40;
+        height: 29px;
     }
     .header-content{
-        margin-top: 5px;
-        margin-left: 6px;
+        line-height: 11px;
+        margin-top: 39px;
+        margin-left: 8px;
     }
     .text-header1{
-        font-size: 9px;
+        font-size: 10px;
     }
-    .text-header{
-        font-size: 9px;
+    .container-body{
+        padding-left: 35px;
+        padding-top: 55px;
     }
-    .trapecio{
-        width: 190px;
-        height: 60px;
-        top: 553px;
-        right: 130px;
+    .imagen-movil{
+        display: block;
+        float: right;
     }
-    .triangulo{
-        width: 180px;
-        height: 122px;
-        top: 464px;
-        right: 120px;
+    .imagen-movil img{
+        width: 150px;
+        height: 200px;
     }
-    .logo{
-        top: 28px;
-        left: 138px;
+    .row-2{
+        display: none;
     }
-    .logo img{
-        width: 50px;
-        height: 30px;
+    .titulos{
+        margin-top: 0px;
+        line-height: 35px;
+    }
+    .titulo1{
+        font-size: 35px;
+    }
+    .titulo2{
+        font-size: 46px;
+        padding-left: 7px;
+    }
+    .subtitle{
+        font-size: 18px;
+        padding-left: 7px;
+    }
+    .text{
+        font-size: 12px;
+    }
+    .title-bold{
+        font-size: 15px;
+    }
+    .text-card{
+        font-size: 15px;
+    }
+    .icono{
+        padding-top: 4px;
+    }
+    .fecha{
+        width: 287px;
+        padding: 4px 7px 4px 7px;
+    }
+    .hora{
+        width: 287px;
+        padding: 4px 7px 4px 7px;
+    }
+    .plataforma{
+        width: 287px;
+        padding: 4px 7px 4px 7px;
+    }
+    .title-tips{
+        font-size: 15px;
+        width: 60px;
+    }
+    .content-tips{
+        width: 287px;
+        padding-bottom: 0px;
+    }
+    .line img{
+        width: 11px;
+        height: 15px;
+    }
+    .line .tips-text{
+        font-size: 15px;
+    }
+    .esperamos{
+        display: none;
+        font-size: 16px;
+        position: fixed;
+        top: 595px;
     }
     .footer{
-        width: 325px;
-        bottom: 27px;
+        width: 315px;
+        margin: 0px;
+        position: fixed;
+        bottom: 0px;
+        background-color: #D70000;
+        border-color: #D70000;;
+    }
+    .trapecio-movil{
+        display: inline;
+        width: 160px;
+        height: 60px;
+        background-color: #D70000;
+        border-top-left-radius: 30px;
+        position: fixed;
+        bottom: 0px;
+        right: 0px;
+    }
+    .logo-trapecio-movil img{
+        width: 60px;
+        height: 30px;
+        position: fixed;
+        bottom: 0px;
+        right: 0px;
+    }
+    .triangulo-movil{
+        background-color: #D70000;
+        width: 149px;
+        height: 60px;
+        clip-path: polygon(100% 0%, 100% 25%, 6% 24%);
+        position: relative;
+        bottom: 14px;
+        left: 12px;
+    }
+    .esperamos-movil{
+        display: inline;
+        color: #e7281e;
+        font-size: 20px;
+        font-family: HelveticaNowDisplayXBd;
+        position: fixed;
+        bottom: 20px;
+        left: 50px;
     }
 }
