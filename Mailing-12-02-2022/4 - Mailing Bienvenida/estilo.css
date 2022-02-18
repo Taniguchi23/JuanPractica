@@ -368,7 +368,7 @@ span {
     }
     .img-content img {
         width: 100%;
-        height: 1192px;
+        height: 1162px;
     }
     .container-body1 {
         position: absolute;
@@ -379,14 +379,14 @@ span {
     }
     .titulos{
         margin-top: 0px;
-        line-height: 45px;
+        line-height: 42px;
     }
     .titulo1{
-        font-size: 35px;
+        font-size: 30px;
         color: #fff;
     }
     .titulo2{
-        font-size: 55px;
+        font-size: 50px;
         padding-left: 7px;
         color: #fff;
     }
@@ -398,6 +398,8 @@ span {
     .flotante {
         font-size: 14px;
         width: 60%;
+        top: -32px;
+        margin-bottom: 0px;
     }
     .flotante-flecha {
         top: 41px;
@@ -492,15 +494,58 @@ span {
         left: -300px;
     }
     .esperamos {
-        top: 1620px;
+        top: 1559px;
         font-size: 12px;
     }
     .manos {
-        left: -192px;
-        bottom: 1001px;
+        left: -206px;
+        bottom: 968px;
     }
     .manos img{
-        width: 190px;
-        height: 320px;
+        width: 205px;
+        height: 310px;
+    }
+}
+
+@media screen and (max-width: 380px){
+    .img-content img {
+        height: 1062px;
+    }
+    .titulos {
+        line-height: 35px;
+    }
+    .titulo1 {
+        font-size: 25px;
+    }
+    .titulo2 {
+        font-size: 45px;
+    }
+    .manos {
+        left: -158px;
+        bottom: 1066px;
+    }
+    .flotante {
+        top: -44px;
+    }
+    .flotante-flecha {
+        top: 56px;
+    }
+    .flotante-fecha {
+        left: 26px;
+    }
+    .flotante-fecha--5 {
+        left: 26px;
+    }
+    .pasos {
+        margin-left: 0px;
+    }
+    .manos img{
+        width: 157px;
+        height: 232px;
+    }
+    .trapecio-web {
+        width: 252px;
+        height: 1498px;
+        left: -249px;
     }
 }
